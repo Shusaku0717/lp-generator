@@ -463,7 +463,7 @@ footer{background:#fff;border-top:1px solid #e0e8e4;padding:28px 16px 20px}
   btn.addEventListener('click',open);closeBtn.addEventListener('click',close);overlay.addEventListener('click',close);
   drawer.querySelectorAll('.menu-item').forEach(a=>{a.addEventListener('click',()=>{close();const id=a.getAttribute('href').slice(1);setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},300);});});
 })();
-</script>
+<\/script>
 </html>`;
 }
 
